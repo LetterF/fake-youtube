@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+	<link rel="stylesheet" href="stylesheet.css">
+ </head>
+ 
+	<body>
+	<!-- MENU ATAS -->
+		  <div class="topMenu">
+		  <div id="main">
+			
+			  <button id="openbtn" onclick="openNav()"><img src="./images/bars.svg" width="25vw" height="25vw" class="side-button"></button>
+			</div>
+		   
+		   <img style="	cursor: pointer;" src="./images/Youtube Logo (PNG1080p) - Vector69Com.png" height="60%" width="auto" class="youtube-icon">
+		   
+        
+			<div id="search-div" class="center">
+				<form id="fcf-form-id" class="search-form" method="post" action="">
+				<label for="searchBar" id="search-label"></label>
+				<input type="text"  placeholder="Telusuri" name="Name" class="search-input">
+				<input type="image" src="./images/search.svg" alt="Search"  class="search-button">
+				<input type="image" src="./images/microphone.svg" alt="voice Search"  class="search-button">
+				</form>
+		   </div>
+		   <img src="./images/user-circle.svg" width="25vw" height="25vw" class="top-right">
+		   <button onclick="openNotification()"id="notifikasi" class="top-right"><img  src="./images/bell.svg" width="25vw" height="25vw" ></button>
+		   <div id="notification-box">
+			<div style="border-bottom-style:ridge;">
+				<p style="display:inline-block;"> Notifikasi </p>
+				<img src="./images/setting.svg" width="25vw" height="25vw"style="display:inline-block;float:right;cursor:pointer; margin-top:10px;margin-bottom:auto;">
+		    </div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=n3Xv_g3g-mA" style="color:black;text-decoration:none;">Youtuber 1 mengupload Loneliness</a>
+			<a href="https://www.youtube.com/watch?v=n3Xv_g3g-mA"><img class="mini-thumbnail" src="./images/Loneliness.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=NWONeJKn6kc" style="color:black;text-decoration:none;">Youtuber 2 mengupload Machine Learning Course for Beginners</a>
+			<a href="https://www.youtube.com/watch?v=NWONeJKn6kc"><img class="mini-thumbnail" src="./images/Machine Learning Course for Beginners.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=-BLAUhBl0nA" style="color:black;text-decoration:none;">Youtuber 3 mengupload Everything Is Television</a>
+			<a href="https://www.youtube.com/watch?v=-BLAUhBl0nA"><img class="mini-thumbnail" src="./images/Everything Is Television.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=6h4jbwAkTME" style="color:black;text-decoration:none;">Youtuber 4 mengupload Just a playlist for calm days</a>
+			<a href="https://www.youtube.com/watch?v=6h4jbwAkTME"><img class="mini-thumbnail" src="./images/Just a playlist for calm days.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=ovCyi7y8chQ" style="color:black;text-decoration:none;">Youtuber 5 mengupload YouTube's Darkest Videos 3</a>
+			<a href="https://www.youtube.com/watch?v=ovCyi7y8chQ"><img class="mini-thumbnail" src="./images/YouTube's Darkest Videos 3.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=xuCn8ux2gbs" style="color:black;text-decoration:none;">Youtuber 6 mengupload I Describe You From Your Sneakers</a>
+			<a href="https://www.youtube.com/watch?v=xuCn8ux2gbs"><img class="mini-thumbnail" src="./images/I Describe You From Your Sneakers.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=xuCn8ux2gbs" style="color:black;text-decoration:none;">Youtuber 7 mengupload history of the entire world, i guess</a>
+			<a href="https://www.youtube.com/watch?v=xuCn8ux2gbs"><img class="mini-thumbnail" src="./images/history of the entire world, i guess.jpg" alt="video a"></a>
+			</div>
+			<div class="notification-grid">
+			<a><img class="content-profile" style="margin: 10px;" src="./images/user-circle.svg" width="60%" height="60%"></a>
+			<a href="https://www.youtube.com/watch?v=eWRfhZUzrAc" style="color:black;text-decoration:none;font-size:13px;">Youtuber 8 mengupload Python for Beginners – Full Course [Programming Tutorial]</a>
+			<a href="https://www.youtube.com/watch?v=eWRfhZUzrAc"><img class="mini-thumbnail" src="./images/Python for Beginners – Full Course [Programming Tutorial].jpg" alt="video a"></a>
+			</div>
+		   </div>
+		   <img src="./images/video.svg" width="25vw" height="25vw" class="top-right"> 
+			
+		   
+		  </div>
+		  
+		  <
+		  
+		  
+	<!-- MENU SAMPING -->
+		  
+		  <div id="mySidebar" class="sidebar">
+			
+			<div id="side-main" class="side-section">
+			  <a><img class="side-icon" src="./images/estate.svg" width="60%" height="60%">Beranda</a>
+			  <a><img class="side-icon" src="./images/play-circle.svg" width="60%" height="60%">Shorts</a>
+			  <a><img class="side-icon" src="./images/browser.svg" width="60%" height="60%">Subscription</a>
+			</div>
+			<div id="playlist" class="side-section">
+			  <a><img class="side-icon" src="./images/koleksi.svg" width="60%" height="60%">Koleksi</a>
+			  <a><img class="side-icon" src="./images/history.svg" width="60%" height="60%">Histori</a>
+			  <a><img class="side-icon" src="./images/play-circle.svg" width="60%" height="60%">Video Anda</a>
+			  <a><img class="side-icon" src="./images/clock.svg" width="60%" height="60%">Tonton nanti</a>
+			  <a><img class="side-icon" src="./images/list-ul.svg" width="60%" height="60%">Playlist 1</a>
+			</div >
+			<div id="subs" class="side-section">
+			  <p > <b>Subscription</b> </p>
+			  <a><img class="side-icon" src="./images/user-circle.svg" width="60%" height="60%">Youtuber 1</a>
+			  <a><img class="side-icon" src="./images/user-circle.svg" width="60%" height="60%">Youtuber 2</a>
+			  <a><img class="side-icon" src="./images/user-circle.svg" width="60%" height="60%">Youtuber 3</a>
+			</div>
+			<div id="explore" class="side-section">
+			  <p> <b>Eksplorasi</b> </p>
+			  <a><img class="side-icon" src="./images/fire.svg" width="60%" height="60%">Trending</a>
+			  <a><img class="side-icon" src="./images/music-note.svg" width="60%" height="60%">Musik</a>
+			  <a><img class="side-icon" src="./images/film.svg" width="60%" height="60%">Film</a>
+			  <a><img class="side-icon" src="./images/airplay.svg" width="60%" height="60%">Game</a>
+			  <a><img class="side-icon" src="./images/newspaper.svg" width="60%" height="60%">Berita</a>
+			  <a><img class="side-icon" src="./images/trophy.svg" width="60%" height="60%">Olahraga</a>
+			</div>
+			<div id="others" class="side-section">
+			  <a><img class="side-icon" src="./images/setting.svg" width="60%" height="60%">Setelan</a>
+			  <a><img class="side-icon" src="./images/exclamation-triangle.svg" width="60%" height="60%">Histori laporan</a>
+			  <a><img class="side-icon" src="./images/question-circle.svg" width="60%" height="60%">Bantuan</a>
+			  <a><img class="side-icon" src="./images/comment.svg" width="60%" height="60%">Masukan</a>
+			  
+			</div>
+
+			<div id="google" class="side-section" >
+			<p style="font-size:1vw;color:gray;">© 2022 Google LLC</p>
+			</div>
+		  </div>
+		 
+	<!-- CONTENT SECTION -->
+		<!--https://www.youtube.com/watch?v=n3Xv_g3g-mA Loneliness
+			https://www.youtube.com/watch?v=-BLAUhBl0nA everythin tv
+			https://www.youtube.com/watch?v=NWONeJKn6kc ML course
+			https://www.youtube.com/watch?v=eWRfhZUzrAc python
+
+			https://www.youtube.com/watch?v=OebUNy0j_Pc sneakre
+			https://www.youtube.com/watch?v=ovCyi7y8chQ yt darkest
+			https://www.youtube.com/watch?v=xuCn8ux2gbs history
+			https://www.youtube.com/watch?v=6h4jbwAkTME
+			
+		-->
+		  <div id="content">
+		  <div  class="grid">
+		   <div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=n3Xv_g3g-mA" ><img class="content-thumbnail center"style="" src="./images/Loneliness.jpg" alt="video a" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>Loneliness</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 1</p> </div>
+		   <div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=NWONeJKn6kc" ><img class="content-thumbnail center"style="" src="./images/Machine Learning Course for Beginners.jpg" alt="video b" >
+				<p class="content-judul" style=""><b>Machine Learning Course for Beginners</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 2</p> </div>
+		   <div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=-BLAUhBl0nA" ><img class="content-thumbnail center"style="" src="./images/Everything Is Television.jpg" alt="video c" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>Everything Is Television</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" > 
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 3</p> </div>
+			<div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=6h4jbwAkTME" ><img class="content-thumbnail center"style="" src="./images/Just a playlist for calm days.jpg" alt="video d" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>Just a playlist for calm days</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 4</p> </div>
+		  </div>
+		  <div class="grid">
+				<div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=ovCyi7y8chQ" ><img class="content-thumbnail center"style="" src="./images/YouTube's Darkest Videos 3.jpg" alt="video1" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>YouTube's Darkest Videos 3</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 5</p> </div>
+		   <div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=OebUNy0j_Pc" ><img class="content-thumbnail center"style="" src="./images/I Describe You From Your Sneakers.jpg" alt="video2" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>I Describe You From Your Sneakers</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 6</p> </div>
+		   <div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=xuCn8ux2gbs" ><img class="content-thumbnail center"style="" src="./images/history of the entire world, i guess.jpg" alt="video3" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>history of the entire world, i guess</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 7</p> </div>
+			<div class="boxMenu">
+				<a href="https://www.youtube.com/watch?v=eWRfhZUzrAc" ><img class="content-thumbnail center"style="" src="./images/Python for Beginners – Full Course [Programming Tutorial].jpg" alt="video4" >
+				<p class="content-judul" style="margin-bottom: 0px;"><b>Python for Beginners – Full Course [Programming Tutorial]</b></p></a>
+				<img class="content-profile"style="" src="./images/user-circle.svg" alt="profile" >
+				<p class="content-youtuber"style="margin-top: 0px;font-size:14px;">Youtuber 8</p> </div>
+		  </div>
+		  </div>
+		  
+	<!-- SHORTS -->
+		  <div id="shorts" >
+		  <p> <b>Shorts</b></p>
+		   <div >
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 1</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">1M views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 2</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">788K views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 3</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">10M views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 4</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">50K views</p> </a>
+				</div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 5</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">9M views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 6</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">99K views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 7</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">1.5M views</p></a>
+				 </div>
+		  <div class="shorts-content">
+				<a href="" ><img src="./images/background.jpg" class="shorts-thumbnail center">
+				<p class="content-judul" style=""><b>Shorts 8</b></p>
+				<p class="shorts-views"style="margin-top: 0px;font-size:14px;">100 views</p> </a>
+				</div>
+		  </div>
+		  
+		  </div>
+
+		
+
+	
+`		<script>
+		function openNav() {
+		  document.getElementById("mySidebar").style.width = "100px";
+		  document.getElementById("content").style.marginLeft = "100px";
+		  document.getElementById("shorts").style.marginLeft = "100px";
+		  document.getElementById("playlist").style.display= "none";
+		  document.getElementById("subs").style.display= "block";
+		  document.getElementById("explore").style.display= "block";
+		  document.getElementById("others").style.display= "block";
+		  document.getElementById("google").style.display= "block";
+		  document.getElementById("openbtn").setAttribute('onclick','closeNav()');
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidebar").style.width = "52px";
+		  document.getElementById("content").style.marginLeft= "52px";
+		  document.getElementById("shorts").style.marginLeft= "52px";
+		  document.getElementById("playlist").style.display= "none";
+		  document.getElementById("subs").style.display= "none";
+		  document.getElementById("explore").style.display= "none";
+		  document.getElementById("others").style.display= "none";
+		  document.getElementById("google").style.display= "none";
+		  document.getElementById("openbtn").setAttribute('onclick','openNav()');
+		}
+		
+		function openNotification() {
+		  document.getElementById("notification-box").style.display= "block";
+		  document.getElementById("notifikasi").setAttribute('onclick','closeNotification()');
+		  document.getElementById("notifikasi").style.backgroundColor= "#edf0f5";
+		}
+		
+		function closeNotification() {
+		  document.getElementById("notification-box").style.display= "none";
+		  document.getElementById("notifikasi").setAttribute('onclick','openNotification()');
+		  document.getElementById("notifikasi").style.backgroundColor= "transparent";
+		}
+		</script>
+		 
+	</body>
+
+
+
+
+
+
+<html>
