@@ -139,12 +139,12 @@ body {
 #notification-box {
 	position: fixed;
 	right: 15px;
-	width: 300px;
+	width: 500px;
 	display:none;
 	background-color: white;
 	border-radius: 2%;
 	overflow: auto;
-	height: 400px;
+	height: 1000px;
 	border: 0.5px ridge;
 	transition: 0.5s;
 }
@@ -170,8 +170,8 @@ body {
 
 
 .mini-thumbnail {
-	width: 64px;
-	height: 36px;
+	width: 128px;
+	height: 72px;
 	display:inline-block;
 	margin: 10px;
 	cursor: pointer;
@@ -260,7 +260,7 @@ body {
 
 .grid {
 	display: grid;
-	grid-template-columns: 2fr 2fr 2fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 0px;
 	margin-left: 0;
 	right: 0;
@@ -330,7 +330,7 @@ body {
 #shorts div {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto;
-	grid-gap: 1px;
+	grid-gap: 0.5px;
 	margin-left: 0;
 	right: 0;
 	
